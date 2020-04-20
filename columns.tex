@@ -3,8 +3,15 @@
 \usepackage[english]{babel}
 
 \usepackage{multicol}
+\usepackage{color}
+
+\usepackage{comment}
+
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{blue}}
 
 \begin{document}
+
 \begin{multicols}{3}
 [
 \section{First Section}
@@ -13,9 +20,19 @@ All human things are subject to decay. And when fate summons, Monarchs must obey
 
 Hello, here is some text without a meaning.  This text should show what 
 a printed text will look like at this place.
+
+If you read this text, you will get no information.  Really?  Is there 
+no information?  Is there.
+
+\columnbreak
+
+This will be in a new column, here is some text without a meaning.  This text 
+should show what a printed text will look like at this place.
+
 If you read this text, you will get no information.  Really?  Is there 
 no information?  Is there...
-\end{First Section}
 \end{multicols}
+
+Something else here. The text should not be multicolumned in this part
 
 \end{document}
