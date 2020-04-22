@@ -1,10 +1,10 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-
+\usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{color}
-
+\graphicspath{/home/}
 \usepackage{comment}
 
 
@@ -71,5 +71,14 @@ no information
 \end{multicols}
 
 \section{Fifth Section}
-Well ya made it this far brother 
+Well ya made it this far brother here have a cat who made poor life choices
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{Images/mistake.jpg}
+	\caption{A cat.}
+  	\label{fig:cat}
+\end{figure}
+
+Figure \ref{fig:cat} shows a cat in a predicament.
+
 \end{document}
